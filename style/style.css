@@ -16,6 +16,19 @@ nav{
 .nav-title span{
     color: #FD6E0A;
 }
+.section-title{
+    color:  #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+.section-description{
+    color:#757575;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+
+}
 nav>ul{
     display: flex;
     align-items: center;
@@ -85,4 +98,120 @@ nav li a{
 .banner-content button{
     margin-top: 20px;
     margin-right: 30px;
+}
+/* main section */
+main{
+    width: 1140px;
+    margin: 0 auto;
+}
+main section{
+    margin-top: 120px;
+}
+/* about section */
+.about{
+    background-color: #FFF8F3;
+    padding: 150px 150px 150px 150px;
+    margin: 130px 0;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+    text-align: center;
+}
+.skill-area{
+ display: flex;
+ margin-top: 50px;
+ gap: 24px;
+}
+.skill-item{
+    background-color: #FFF;
+    border-radius: 5px;
+    padding: 30px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+.skill-title{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.skill-content{
+    margin-top: 5px;
+}
+.resume-area{
+    display: flex;
+    gap: 24px;
+}
+.column-title{
+    color:#474747;
+    font-size: 30px;
+    font-weight: 700;
+}
+.resume-item-title{
+    color: var(--Dark-02, #474747);
+font-family: Open Sans;
+font-size: 25px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.resume-item-sub{
+    color: var(--Dark-03, #757575);
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.resume-paragraph{
+    color: var(--Dark-03, #757575);
+font-family: Open Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; /* 175% */
+width: 90%;
+}
+#property{
+    margin-top: 50px;
+    margin-left: 470px;
+    margin-bottom: 113px;
+}
+.footer-area{
+   display: flex;
+}
+footer{
+    background-color:#FFF8F3 ;
+    display: flex;
+    padding: 130px 220px;
+    gap: 110px;
+    
+}
+
+.footer-form input{
+    display: block;
+    margin-bottom: 24px;
+    padding: 18px 350px 18px 30px;
+}
+.footer-form textarea{
+    display: block;
+    margin-bottom: 24px;
+    padding: 18px 360px 134px 30px;
+
+}
+.footer-form textarea,input{
+    border-radius: 5px;
+    border: none;
+}
+.hello{
+font-size: 35px;
+font-weight: 700;
+}
+.footer-content p{
+    color: var(--Dark-02, #474747);
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    width: 70%;
+
 }
